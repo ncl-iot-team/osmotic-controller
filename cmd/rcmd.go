@@ -22,7 +22,7 @@ import (
 // rcmdCmd represents the rcmd command
 var rcmdCmd = &cobra.Command{
 	Use:   "rcmd",
-	Short: "A brief description of your command",
+	Short: "Send a single command. Command is passes as a quoted string Ex: \"set e_fwd_rt 5000\" ",
 	Long: `A longer description that spans multiple lines and likely contains examples
 and usage of using your command. For example:
 

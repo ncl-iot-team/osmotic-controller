@@ -22,7 +22,7 @@ import (
 // runCmd represents the run command
 var runCmd = &cobra.Command{
 	Use:   "run",
-	Short: "A brief description of your command",
+	Short: "Runs the list of controller commands mentioned in the file. File name is passed as argument",
 	Long: `A longer description that spans multiple lines and likely contains examples
 and usage of using your command. For example:
 
