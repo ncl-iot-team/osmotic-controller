@@ -1,0 +1,11 @@
+version: "1.0"
+
+remote-device1:
+  mode: "messaging"
+  protocol: "amqp"
+  host: "mqserver-01.technipun.com"
+  port: "5672"
+  user: "edge-user"
+  password: "M4cQJb8eB6FP"
+  queue: "cmdr"
+  

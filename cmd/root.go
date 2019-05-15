@@ -78,6 +78,10 @@ func initConfig() {
 		// Search config in home directory with name ".osmotic-controller" (without extension).
 		viper.AddConfigPath(home)
 		viper.SetConfigName(".osmotic-controller")
+		// Search config in home directory with name ".exp-commander" (without extension).
+		viper.AddConfigPath("./config")
+		viper.SetConfigName("controller")
+		viper.AddConfigPath(home + "/.controller")
 	}
 
 	viper.AutomaticEnv() // read in environment variables that match
